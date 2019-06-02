@@ -26,7 +26,7 @@ Kubeflow is a Cloud Native platform for machine learning based on Google’s int
 
 
 
-## Install Kubeflow(v0.5)
+## Install Kubeflow(v0.5.0)
 
 Start with a Ubuntu 16.04 `EC2` for `kubernetes controller` **Should >= c4.xlarge (7.5GB Memory, 20GB >= Storage), Open All TCP Port Inbound for test**.
 
@@ -395,10 +395,8 @@ $ eksctl delete cluster --name eks-cpu --region ap-northeast-2
 ## Reference
 
 - [Install Kubeflow](https://www.kubeflow.org/docs/aws/deploy/install-kubeflow/)
-
 - [Initial cluster setup for existing cluster](https://www.kubeflow.org/docs/aws/deploy/existing-cluster/)
-
 - [kubeflow/examples](<https://github.com/kubeflow/examples/tree/master/github_issue_summarization>)
-
 - [alicek106 / aws-cli-preset](https://github.com/alicek106/aws-cli-preset)
+- https://swalloow.github.io/eks-kubeflow
 
